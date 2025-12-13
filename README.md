@@ -47,6 +47,15 @@ uvicorn backend.main:app --reload --port 8001
 ```
 The server will start at `http://127.0.0.1:8001`.
 
+### Docker Support
+You can also run the application using Docker.
+
+1. **Build and Run:**
+```bash
+docker-compose up --build
+```
+The server will be available at `http://127.0.0.1:8000`.
+
 ### 5. API Usage
 **Endpoint:** `POST /analyze`
 
